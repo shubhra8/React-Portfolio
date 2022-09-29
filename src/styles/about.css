@@ -1,0 +1,45 @@
+#AboutMe {
+    display: flex;
+    margin-bottom: 100px;
+    flex-direction: row;
+    color: black;
+    margin-top: 100px;
+
+}
+
+#AboutMe img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+
+}
+
+ .Me {
+     margin-left: 100px;
+     flex-shrink: 1;
+
+ }
+
+ #headname {
+     font-size: 35px;
+     text-align: left;
+     font-family: 'Abril Fatface', cursive;
+     text-decoration: none;
+     margin-left: 0px;
+     color: black;
+ }
+
+ p,h4{
+    font-size: 20px;
+    font-family: 'Abril Fatface', cursive;
+ }
+
+ h2 {
+     font-size: 30px;
+     text-align: center;
+     font-family: 'Abril Fatface', cursive;
+     text-decoration: underline;
+     margin-left: 100px;
+     color: black;
+ }

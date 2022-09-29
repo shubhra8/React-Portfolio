@@ -1,0 +1,70 @@
+.first,.second{
+    display: flex;
+    margin-left: 5px;
+    margin-right: 100px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h3{
+    font-family: 'Abril Fatface', cursive;
+    color: #295367;
+}
+.card{
+    width: 20rem;
+    height: auto;
+    margin-left: 180px;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: .5px;
+    border-color: #7e9ab9,
+}
+
+img {
+    width: 20rem;
+}
+.card:hover{
+    background-color:rgba(57, 192, 237, 0.3)
+}
+
+.container-fluid{
+       
+            width: 100px;
+            height: 100px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+}
+.link{
+color: #295367;
+}
+
+
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

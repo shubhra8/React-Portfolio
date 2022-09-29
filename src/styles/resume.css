@@ -1,0 +1,19 @@
+li,h4{
+    font-family: 'Abril Fatface', cursive;
+     color: #295367;
+    list-style-type: square;
+}
+
+.button{
+    background-color: #295367;  
+        ;
+}
+
+.button:hover{
+    background-color: white;
+}
+
+.resume {
+    margin-left: 100px;
+    margin-top: 100px;
+}
