@@ -1,4 +1,6 @@
 import React from 'react';
+// import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
 import '../styles/navtabs.css';
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
