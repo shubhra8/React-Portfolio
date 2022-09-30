@@ -43,3 +43,11 @@
      margin-left: 100px;
      color: black;
  }
+ @media only screen and (max-width: 600px) {
+     #AboutMe{
+        flex-direction: column;
+     }
+     .Me{
+        margin-top: 100px;
+     }
+ }

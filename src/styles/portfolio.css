@@ -41,30 +41,21 @@ color: #295367;
 
 
 
-/* Tooltip container */
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-    /* If you want dots under the hoverable text */
-}
-
-/* Tooltip text */
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-
-    /* Position the tooltip text - see examples below! */
-    position: absolute;
-    z-index: 1;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
+@media only screen and (max-width: 600px) {
+    .first,.second {
+                display: flex;
+                    margin-left: auto;
+                    margin-right: auto;
+                    justify-content: space-evenly;
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                    flex-direction: column;
+            }
+            .card{
+                width: auto;
+                display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-left: 0px;
+            }
+        }
